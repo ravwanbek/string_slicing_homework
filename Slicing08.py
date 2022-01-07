@@ -6,4 +6,8 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    s=str(s)
+    answer=s[0::2]
+    
+    return answer
+print(main('salomatlik'))
