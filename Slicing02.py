@@ -6,4 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a=str(s)
+    answer=a[-4:]
+    return answer
+print(main('abcdefghijk'))
