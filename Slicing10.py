@@ -8,4 +8,13 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    return
+    s=str(s)
+    n=int(n)
+    k=int(k)
+    answer=s[n:k+1]
+    return answer
+print(main('salomat',2,4))
+
+
+
+    
