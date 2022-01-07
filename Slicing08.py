@@ -7,7 +7,7 @@ def main(s):
         str: answer
     """
     s=str(s)
-    answer=s[0::2]
+    answer=s[1::2]
     
     return answer
 print(main('salomatlik'))
