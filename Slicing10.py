@@ -11,7 +11,7 @@ def main(s,n,k):
     s=str(s)
     n=int(n)
     k=int(k)
-    answer=s[n:k+1]
+    answer=s[n:k]
     return answer
 print(main('salomat',2,4))
 
