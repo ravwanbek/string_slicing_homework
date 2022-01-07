@@ -7,4 +7,10 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    s=str(s)
+    n=int(n)
+    if len(s)>=n:
+        answer=s[:-n]
+    return answer
+print(main('abcdefghijk',10))
+    
